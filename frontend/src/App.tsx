@@ -161,10 +161,10 @@ function App() {
                     <h5 className="footer-title">ETERNITY</h5>
                     <p className="text-muted mb-4">Discover the finest luxury timepieces from the world's most prestigious watchmakers.</p>
                     <div className="d-flex">
-                      <a href="#" className="me-3 text-white"><i className="fab fa-facebook-f"></i></a>
-                      <a href="#" className="me-3 text-white"><i className="fab fa-instagram"></i></a>
-                      <a href="#" className="me-3 text-white"><i className="fab fa-twitter"></i></a>
-                      <a href="#" className="text-white"><i className="fab fa-pinterest"></i></a>
+                      <a href="https://facebook.com" className="me-3 text-white" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                      <a href="https://instagram.com" className="me-3 text-white" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                      <a href="https://twitter.com" className="me-3 text-white" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                      <a href="https://pinterest.com" className="text-white" target="_blank" rel="noopener noreferrer"><i className="fab fa-pinterest"></i></a>
                     </div>
                   </div>
                   <div className="col-md-3 mb-4 mb-md-0">
@@ -176,10 +176,10 @@ function App() {
                   </div>
                   <div className="col-md-3 mb-4 mb-md-0">
                     <h5 className="footer-title">Information</h5>
-                    <a href="#" className="footer-link">About Us</a>
-                    <a href="#" className="footer-link">Privacy Policy</a>
-                    <a href="#" className="footer-link">Terms & Conditions</a>
-                    <a href="#" className="footer-link">Contact Us</a>
+                    <Link to="/about" className="footer-link">About Us</Link>
+                    <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+                    <Link to="/terms" className="footer-link">Terms & Conditions</Link>
+                    <Link to="/contact" className="footer-link">Contact Us</Link>
                   </div>
                   <div className="col-md-3">
                     <h5 className="footer-title">Contact Us</h5>
