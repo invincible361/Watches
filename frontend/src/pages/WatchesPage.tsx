@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { watchAPI } from '../services/api';
+import React, { useState } from 'react';
 
 // Import watches from our backend data
 const watchesData = [
